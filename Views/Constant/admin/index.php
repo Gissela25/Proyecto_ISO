@@ -11,18 +11,18 @@ require_once "Views/Constant/admin/const.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ferreteria Sumersa</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <link rel="stylesheet" href="<?=PATH?>Assets/css/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<link rel="stylesheet" href="<?=PATH?>Assets/css/index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 
 <body>
     <?php 
- require_once "Views/Constant/admin/nav.php";
-?>
+    require_once "Views/Constant/admin/nav.php";
+    ?>
     <div>
         <div class="d-grid gap-3 mt-3 mx-5">
 
@@ -30,13 +30,13 @@ require_once "Views/Constant/admin/const.php";
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
+                        aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+                        aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
+                        aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -69,91 +69,125 @@ require_once "Views/Constant/admin/const.php";
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+</div>
+<div class="container">
+    <div class="title">
+        <h1>PRODUCTOS</h1>
+    </div>
+    <div class="titl">
+        <h4>CONSTRUCCIÓN</h4>
+    </div>
+    <br>
+    <div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">HIERROS REDONDOS, CUADRADO Y ENTORCHADO CORRUGADOS, LISOS</li>
+            <li class="list-group-item">TUBERÍA INDUSTRIAL Y ESTRUCTURAL</li>
+            <li class="list-group-item">FIBROLIT PLANO</li>
+            <li class="list-group-item">CEMENTO Y OTROS</li>
+            <li class="list-group-item">TELA METÁLICA CICLON</li>
+        </ul>
+    </div>
+    <div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <img src="/Proyecto_ISO/Assets/img/contruccion.jpg" height="200px">
             </div>
-            <br>
-            <div class="row" style="text-align:center">
-                <div class="col-md-4">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424.3146555618816!2d-89.17801794990542!3d13.70756091405031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6330b701cd3779%3A0x947ab584b0a2c3ef!2sFerreteria%20SUMERSA%2C%20San%20Salvador!5e1!3m2!1ses-419!2ssv!4v1647737427070!5m2!1ses-419!2ssv"
-                        width="385" height="235" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div style="font-family:Anton; font-size:260%; color: rgb(40, 68, 116);"><b>San Salvador</b></div>
-                    <span style="font-family:Open Sans; font-size:120%;">Teléfono: (503) 2286 - 4000</span>
-                    <p style="font-family:Open Sans;font-size:120%;">Email: elmer.calderon@sumersa.com.sv</p>
-                    <a href="https://web.whatsapp.com/send?phone=50370391256&text=" target="_blank">
-                        <img src="<?=PATH?>Assets/img/whatsapp.svg" height="50px" width="50px">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d777.0474469332613!2d-89.29564760341782!3d13.673871466142495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ccce09c136cd1f9!2sSumersa!5e1!3m2!1ses-419!2ssv!4v1647737564160!5m2!1ses-419!2ssv"
-                        width="385" height="235" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div style="font-family:Anton; font-size:260%; color: rgb(40, 68, 116);"><b>Santa Tecla</b></div>
-                    <span style="font-family:Open Sans; font-size:120%;">Teléfono: (503) 2250 - 7200</span>
-                    <p style="font-family:Open Sans; font-size:120%;"> PBX: (503) 2250 - 7200 / (503) 2228 - 4444</p>
-                    <a href="https://web.whatsapp.com/send?phone=50370391262&text=" target="_blank">
-                        <img src="<?=PATH?>Assets/img/whatsapp.svg" height="50px" width="50px">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457.61147098487874!2d-89.28759146977266!3d13.587609227829821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632cff74f21bc5%3A0xd0c610f73005c09b!2sFerreter%C3%ADa%20Sumersa!5e1!3m2!1ses-419!2ssv!4v1647737657375!5m2!1ses-419!2ssv"
-                        width="385" height="235" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div style="font-family:Anton; font-size:260%; color: rgb(40, 68, 116);"><b>Zaragoza</b></div>
-                    <p style="font-family:Open Sans; font-size:120%;">Teléfono: (503) 2314 - 1100</p>
-                    <br>
-                    <a href="https://web.whatsapp.com/send?phone=50370391247&text=" target="_blank">
-                        <img src="<?=PATH?>Assets/img/whatsapp.svg" height="50px" width="50px">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <br>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.9268234464838!2d-89.36914424637418!3d13.723702771350661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632879951751cd%3A0x1cf5a484bc942856!2sSUMERSA!5e1!3m2!1ses-419!2ssv!4v1647738719523!5m2!1ses-419!2ssv"
-                        width="385" height="235" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div style="font-family:Anton; font-size:260%; color: rgb(40, 68, 116);"><b>Lourdes Colón</b></div>
-                    <span style="font-family:Open Sans; font-size:120%;">Teléfono: (503) 2338 - 4821</span>
-                    <p style="font-family:Open Sans; font-size:120%;"> Fax: (503) 2338 - 6843</p>
-                    <a href="https://web.whatsapp.com/send?phone=50370391253&text=" target="_blank">
-                        <img src="<?=PATH?>Assets/img/whatsapp.svg" height="50px" width="50px">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <br>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1342.98830731772!2d-89.36870840515611!3d13.782475524235661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632705ae79df2d%3A0xed3db52b72bc1f0c!2sFerreteria%20Sumersa!5e1!3m2!1ses-419!2ssv!4v1647738866410!5m2!1ses-419!2ssv"
-                        width="385" height="235" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div style="font-family:Anton; font-size:260%; color: rgb(40, 68, 116);"><b>Desvío a Opico</b></div>
-                    <span style="font-family:Open Sans; font-size:120%;">Teléfono: (503) 2319 - 3564</span>
-                    <p style="font-family:Open Sans; font-size:120%;"> Fax: (503) 2319 - 3563</p>
-                    <a href="https://web.whatsapp.com/send?phone=50370391254&text=" target="_blank">
-                        <img src="<?=PATH?>Assets/img/whatsapp.svg" height="50px" width="50px">
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <br>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.8393216921178!2d-89.57566721445782!3d13.982003549261588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e8e9b6bc14e3%3A0xf9267fd28da0b711!2sSumersa!5e1!3m2!1ses-419!2ssv!4v1647739030547!5m2!1ses-419!2ssv"
-                        width="385" height="235" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div style="font-family:Anton; font-size:260%; color: rgb(40, 68, 116);"><b>Santa Ana</b></div>
-                    <p style="font-family:Open Sans; font-size:120%;">Teléfono: (503) 2440 - 5555 / (503) 2440 - 5048
-                    </p>
-                    <br>
-                    <a href="https://web.whatsapp.com/send?phone=50370392286&text=" target="_blank">
-                        <img src="<?=PATH?>Assets/img/whatsapp.svg" height="50px" width="50px">
-                    </a>
-                </div>
+            <div class="col-md-auto">
+                <img src="/Proyecto_ISO/Assets/img/cemento.png" height="200px">
             </div>
         </div>
+    </div>
+    <br>
+    <div class="titl">
+        <h4>FERRETERÍA</h4>
+    </div>
+    <div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">TORNILLOS, PERNOS Y OTROS (ANCLAS, TUERCAS, ARANDELAS, TRAMOS, CAPUCH)</li>
+            <li class="list-group-item">HERRAJES (BISAGRA, PASADOR,CHAPAS, CANDADOS)</li>
+            <li class="list-group-item">ABRASIVOS Y OTROS (BROCAS, DISCOSAL)</li>
+            <li class="list-group-item">HILO NYLON, SOGAS Y OTROS</li>
+            <li class="list-group-item">DESTORNILLADORES,LLAVES, CUBOS, ETC</li>
+        </ul>
+    </div>
+    <br>
+    <div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <img src="/Proyecto_ISO/Assets/img/tornillos.jpg" height="200px">
+            </div>
+            <div class="col-md-auto">
+                <img src="/Proyecto_ISO/Assets/img/sogas.jpg" height="200px">
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="titl">
+        <h4>PINTURA</h4>
+    </div>
+    <div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">PINTURAS ACEITE</li>
+            <li class="list-group-item">SPRAY</li>
+            <li class="list-group-item">BROCHAS Y OTROS (RODILLOS, FELPAS, BANDEJA, TIRRO, ETC)</li>
+            <li class="list-group-item">ACABADOS DE MADERA</li>
+            <li class="list-group-item">SHERWIN WILLIAMS</li>
+        </ul>
+    </div>
+    <br>
+    <div>
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <img src="/Proyecto_ISO/Assets/img/pintura.jpg" height="200px">
+            </div>
+            <div class="col-md-auto">
+                <img src="/Proyecto_ISO/Assets/img/brochas.jpg" height="200px">
+            </div>
+        </div>
+    </div>
+</div>
 </body>
+<br>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-light">
+    <div class="containter text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                    Ferretería SUMERSA
+                </h5>
+                <p>Sumersa es una empresa importadora y comercializadora de materiales para la construcción</p>
+
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                   Contacto
+               </h5>
+               <i class="fas fa-home mr-3">2da Calle Pte entre 12 y 14 Av Sur No 7 Santa Tecla, La Libertad, El Salvador, C.A.</i>
+               <i class="fas fa-envelope mr-3">Email:info@sumersa.com.sv</i>
+           </div>
+           <hr class="mb-4">
+           <div class="row align-items-center text-center">
+            <div class="col-md-7 col-lg-8 offset-lg-2">
+                <center>
+                    <p>Copyright @2022 All rights reserved</p>
+                </center>
+                
+            </div>
+        </div> 
+    </div>
+</div>
+</footer>
 
 </html>

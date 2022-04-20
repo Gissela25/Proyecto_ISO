@@ -14,7 +14,7 @@ if(isset($_POST['lwg']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <title>Login</title>
     <link rel="stylesheet" href="<?=PATH?>Assets/css/loginn.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -32,51 +32,51 @@ if(isset($_POST['lwg']))
         <div class="row justify-content-center pt-5 mt-5 mr-1">
             <div class="col-md-4 ">
                 <img src="Assets/img/logo.PNG" class="rounded mx-auto d-block mb-3" alt="..." height="65px"
-                    width="200px">
+                width="200px">
                 <form class="formulario" action="?c=user&a=Ingresar" method="POST" role="form">
                     <div class="form-group text-center">
                         <h3 class="text-" style="color:#084594">Iniciar Sesion</h3>
                     </div>
                     <?php require 'Tools/procesar-datos-log.php';?>
                     <?php
-                     if(count($errores_log)>0&&isset($_POST['ingresar']))
-                     {
-                         echo "<ul>";
-                         foreach($errores_log as $error)
-                         {
-                           echo "<li>$error</li>";
-                         }
-                         echo "</ul>";
- 
+                    if(count($errores_log)>0&&isset($_POST['ingresar']))
+                    {
+                       echo "<ul>";
+                       foreach($errores_log as $error)
+                       {
+                         echo "<li>$error</li>";
                      }
-
+                     echo "</ul>";
                      
-                    ?>
-                    <div class="form-group mx-sm-4 pt-3">
-                        <input type="text" class="form-control" placeholder="Ingrese su Correo Electronico"
-                            name="i_email" id="i_email">
-                    </div>
+                 }
 
-                    <div class="form-group mx-sm-4 pb-6">
+                 
+                 ?>
+                 <div class="form-group mx-sm-4 pt-3">
+                    <input type="text" class="form-control" placeholder="Ingrese su Correo Electronico"
+                    name="i_email" id="i_email">
+                </div>
+
+                <div class="form-group mx-sm-4 pb-6">
                     <div class="input-group">
                         <input type="password" class="form-control" placeholder="Ingrese su Contraseña" name="i_pass"
-                            id="i_pass">
-                            <div class="input-group-append">
-                    <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+                        id="i_pass">
+                        <div class="input-group-append">
+                            <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+                        </div>
                     </div>
-                    </div>
-                    </div>
+                </div>
 
-                    <div class="form-group mx-sm-3 text-center olv">
-                            <span class=""><a href="?c=user&a=Recover" class="olvide">¿Olvide mi
-                                    contraseña?</a></span>
-                    </div>
+                <div class="form-group mx-sm-3 text-center olv">
+                    <span class=""><a href="?c=user&a=Recover" class="olvide">¿Olvide mi
+                    contraseña?</a></span>
+                </div>
 
-                    <div class="form-group mx-sm-5 pb-3">
-                        <input type="submit" value="Ingresar" name="ingresar" id="ingresar"
-                            class="btn btn-block ingresar">
-                        <button class="google my-2" id="lwg" name="lwg"><i class="bi bi-google"> </i>Log in with Google </button>
-                    </div>
+                <div class="form-group mx-sm-5 pb-3">
+                    <input type="submit" value="Ingresar" name="ingresar" id="ingresar"
+                    class="btn btn-block ingresar">
+                    <button class="google my-2" id="lwg" name="lwg"><i class="bi bi-google"> </i>Log in with Google </button>
+                </div>
 
 
                     <?php /*<h6 class="pb-2 or"><center>OR</center></h6>
@@ -89,12 +89,12 @@ if(isset($_POST['lwg']))
             */ ?>
             <!-- <div class="form-group mx-sm-4 text-center olv"> -->
             <!-- <span class=""><a href="?c=user&a=Recover" class="olvide">¿Olvide mi
-                                contraseña?</a></span> &nbsp;&nbsp;&nbsp;&nbsp; -->
+            contraseña?</a></span> &nbsp;&nbsp;&nbsp;&nbsp; -->
 
 
             <div class="form-group mx-sm-4 my-1 text-center olv">
                 <span class=""><a href="?c=user&a=Activar" class="olvide"><i class="bi bi-key-fill"></i>Activar
-                        Cuenta</a></span>
+                Cuenta</a></span>
             </div>
             <div class="form-group mx-sm-4 text-center olv">
                 <div class="form-group text-center">
@@ -102,35 +102,63 @@ if(isset($_POST['lwg']))
                 </div>
             </div>
             <div class="form-group text-center">
-                        <a href="?c=inicio" class="edit"><i class="bi bi-reply-fill"></i>Regresar</a>
+                <a href="?c=inicio" class="edit"><i class="bi bi-reply-fill"></i>Regresar</a>
             </div>
-            </form>
-        </div>
+        </form>
     </div>
+</div>
 
 
 
-    <!-- <span class="right-title">Sign up with <br>Social Network</span> -->
-    <!-- <i class="bi bi-facebook"></i><button class="social facebook">Log in with Facebook</button> -->
-    <script type="text/javascript">
+<!-- <span class="right-title">Sign up with <br>Social Network</span> -->
+<!-- <i class="bi bi-facebook"></i><button class="social facebook">Log in with Facebook</button> -->
+<script type="text/javascript">
     function mostrarPassword(){
-		var cambio = document.getElementById("i_pass");
-		if(cambio.type == "password"){
-			cambio.type = "text";
-			$('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
-		}else{
-			cambio.type = "password";
-			$('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
-		}
-	} 
-    </script>
+      var cambio = document.getElementById("i_pass");
+      if(cambio.type == "password"){
+         cambio.type = "text";
+         $('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
+     }else{
+         cambio.type = "password";
+         $('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
+     }
+ } 
+</script>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+</script>
 </body>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-light">
+    <div class="containter text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                    Ferretería SUMERSA
+                </h5>
+                <p>Sumersa es una empresa importadora y comercializadora de materiales para la construcción</p>
 
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                 Contacto
+             </h5>
+             <i class="fas fa-home mr-3">2da Calle Pte entre 12 y 14 Av Sur No 7 Santa Tecla, La Libertad, El Salvador, C.A.</i>
+             <i class="fas fa-envelope mr-3">Email:info@sumersa.com.sv</i>
+         </div>
+         <hr class="mb-4">
+         <div class="row align-items-center text-center">
+            <div class="col-md-7 col-lg-8 offset-lg-2">
+                <center>
+                    <p>Copyright @2022 All rights reserved</p>
+                </center>
+                
+            </div>
+        </div> 
+    </div>
+</div>
+</footer>
 </html>
