@@ -120,7 +120,7 @@ require_once "Views/Constant/admin/const.php";
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d941.9268234464838!2d-89.36914424637418!3d13.723702771350661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f632879951751cd%3A0x1cf5a484bc942856!2sSUMERSA!5e1!3m2!1ses-419!2ssv!4v1647738719523!5m2!1ses-419!2ssv"
                         width="385" height="235" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    <div style="font-family:Anton; font-size:260%; color: rgb(40, 68, 116);"><b>Lourdes Colón</b></div>
+                    <div style="font-family:Anton; font-size:260%; color: rgb(40, 68, 116);"><b>Lourdess Colón</b></div>
                     <span style="font-family:Open Sans; font-size:120%;">Teléfono: (503) 2338 - 4821</span>
                     <p style="font-family:Open Sans; font-size:120%;"> Fax: (503) 2338 - 6843</p>
                     <a href="https://web.whatsapp.com/send?phone=50370391253&text=" target="_blank">
