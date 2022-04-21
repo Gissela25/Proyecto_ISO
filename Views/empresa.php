@@ -47,4 +47,7 @@ require_once('Core/config.php');
                 </div>
     </div>
 </body>
+<?php 
+    require_once "footer.php";
+    ?>
 </html>
