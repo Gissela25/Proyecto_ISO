@@ -14,6 +14,7 @@ require_once('Core/config.php');
     <link rel="stylesheet" href="<?=PATH?>Assets/css/mail.css">
 </head>
 <body>
+<div class="animated-background">    
     <div class="container">
         <h1>Contactanos</h1>
         <p>Escribenos en nuestro formulario de contacto sus dudas o preguntas con respecto a nuestros servicios</p>
@@ -30,8 +31,7 @@ require_once('Core/config.php');
             <textarea name="message" cols="30" rows="4"></textarea>
             <input type="submit" value="Enviar">
         </form>
-    </div>
-    
+    </div>  
+</div>
 </body>
-
 </html>

@@ -35,11 +35,11 @@ require_once "Views/Constant/empleados/SS/const.php"?>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Precio San Salvador</label>
-                    <input type="numbers" class="form-control" name="Precio_SS" value="<?=$p->getPro_press()?>">
+                    <input type="numbers" class="form-control" name="Precio_SS" value="<?=$p->getPro_press()?>" pattern="^[0-9]+([.][0-9]+)?$" required>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Existencias San Salvador</label>
-                    <input type="numbers" class="form-control" name="Cantidad_SS" value="<?=$p->getPro_canss()?>">
+                    <input type="numbers" class="form-control" name="Cantidad_SS" value="<?=$p->getPro_canss()?>"  pattern="^[0-9]+$" required>
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="my-2">

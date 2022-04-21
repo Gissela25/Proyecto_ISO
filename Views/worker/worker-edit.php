@@ -38,19 +38,19 @@ require_once('Core/config.php');
                 </div>
                 <div class="" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Nombre</label>
-                    <input type="name" class="form-control" name="Nombre" value="<?=$p->getPro_nom()?>">
+                    <input type="name" class="form-control" name="Nombre" value="<?=$p->getPro_nom()?>" pattern="^[a-zA-Z\s]{2,254}" required>
                 </div>
                 <div class="" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Apellido</label>
-                    <input type="name" class="form-control" name="Apellido" value="<?=$p->getPro_ape()?>">
+                    <input type="name" class="form-control" name="Apellido" value="<?=$p->getPro_ape()?>" pattern="^[a-zA-Z\s]{2,254}" required>
                 </div>
                 <div class="" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Correo</label>
-                    <input type="name" class="form-control" name="Correo" value="<?=$p->getPro_correo()?>">
+                    <input type="name" class="form-control" name="Correo" value="<?=$p->getPro_correo()?>" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" required>
                 </div>
                 <div class="" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label"></label>
-                    <input type="hidden" class="form-control" name="Clave" value="<?=$p->getPro_Clave()?>">
+                    <input type="hidden" class="form-control" name="Clave" value="<?=$p->getPro_Clave()?>" pattern="^[a-zA-Z0-9()._,*%&#@]{8,}$" required>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">

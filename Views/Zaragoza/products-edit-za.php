@@ -35,11 +35,11 @@ require_once "Views/Constant/empleados/ZA/const.php";?>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Precio Zaragoza</label>
-                    <input type="numbers" class="form-control" name="Precio_ZA" value="<?=$p->getPro_preza()?>">
+                    <input type="numbers" class="form-control" name="Precio_ZA" value="<?=$p->getPro_preza()?>" pattern="^[0-9]+([.][0-9]+)?$" required>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Existencias Zaragoza</label>
-                    <input type="numbers" class="form-control" name="Cantidad_ZA" value="<?=$p->getPro_canza()?>">
+                    <input type="numbers" class="form-control" name="Cantidad_ZA" value="<?=$p->getPro_canza()?>" pattern="^[0-9]+$" required>
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="my-2">

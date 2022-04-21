@@ -33,7 +33,7 @@
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Nombre Sucursal</label>
-                    <input type="name" class="form-control" name="Nombre_Sucursal" value="<?=$p->getPro_nom()?>">
+                    <input type="name" class="form-control" pattern="^[a-zA-Z\s]{2,254}" name="Nombre_Sucursal" value="<?=$p->getPro_nom()?>">
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="my-2">

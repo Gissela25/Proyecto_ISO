@@ -35,11 +35,11 @@ require_once "Views/Constant/empleados/OP/const.php"?>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Precio Opico</label>
-                    <input type="numbers" class="form-control" name="Precio_OP">
+                    <input type="numbers" class="form-control" name="Precio_OP" pattern="^[0-9]+([.][0-9]+)?$" required>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Existencias Opico</label>
-                    <input type="numbers" class="form-control" name="Cantidad_OP">
+                    <input type="numbers" class="form-control" name="Cantidad_OP"  pattern="^[0-9]+$" required>
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="my-2">

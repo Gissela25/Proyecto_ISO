@@ -29,7 +29,8 @@ require_once('Core/config.php');
     </div>
     <div style="text-align:center">
                 <div id="columna1">
-                <h1>QUIENES SOMOS</h1>
+                
+                <h1 class="title">QUIENES SOMOS</h1>
                 <br>
         <p>Sumersa es una empresa importadora y comercializadora de materiales para la construcción,
             destacándose en la distribución de productos de hierro tales como láminas, ángulos, polines, vigas y canales entre otros.</p>
@@ -42,11 +43,8 @@ require_once('Core/config.php');
              <br><br><br>                   
                 </div>
                 <div id="columna2">
-                <img src="Assets/img/empresa.png" width = "310px" height = "440px">
+                <img class="imga" src="Assets/img/empresa.png" width = "310px" height = "440px">
                 </div>
     </div>
 </body>
-<?php 
-    require_once "footer.php";
-    ?>
 </html>

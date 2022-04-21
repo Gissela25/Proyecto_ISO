@@ -39,25 +39,30 @@ require_once('Core/config.php');
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Nombre</label>
-                    <input type="name" class="form-control" name="Nombre">
+                    <input type="name" class="form-control" pattern="^[a-zA-Z\s]{2,254}" name="Nombre" required>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Apellido</label>
-                    <input type="name" class="form-control" name="Apellido">
+                    <input type="name" class="form-control" pattern="^[a-zA-Z\s]{2,254}" name="Apellido" required>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Correo</label>
-                    <input type="name" class="form-control" name="Correo">
+                    <input type="name" class="form-control" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+                        name="Correo" required>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Clave</label>
+                    
                     <div class="input-group">
-                        <input type="password" class="form-control" name="Clave" id="Clave">
-                            <div class="input-group-append">
-                            <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()">
-                             <span class="fa fa-eye-slash icon"></span> </button>
-                            </div>
-                     </div>
+                        <input type="password" class="form-control" name="Clave" id="Clave" required pattern="^[a-zA-Z0-9()._,*%&#@]{8,}$">
+                        
+                        <div class="input-group-append">
+                            <button id="show_password" class="btn btn-primary" type="button"
+                                onclick="mostrarPassword()">
+                                <span class="fa fa-eye-slash icon"></span> </button>
+                        </div>
+                        <p>La contraseña debe contener almenos ocho caracteres</p>
+                    </div>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
@@ -85,26 +90,26 @@ require_once('Core/config.php');
                         </select>
                     </div>
                     <div class="d-flex justify-content-center">
-                    <div class="my-2">
+                        <div class="my-2">
                             <input type="submit" class="btn "></input>
                         </div>
-                        
+
             </form>
         </div>
     </div>
     </div>
 </body>
 <script type="text/javascript">
-            function mostrarPassword(){
-		    var cambio = document.getElementById("Clave");
-		    if(cambio.type == "password"){
-			cambio.type = "text";
-			$('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
-		    }else{
-			cambio.type = "password";
-			$('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
-		    }
-	        } 
+function mostrarPassword() {
+    var cambio = document.getElementById("Clave");
+    if (cambio.type == "password") {
+        cambio.type = "text";
+        $('.icon').removeClass('fa fa-eye-slash').addClass('fa fa-eye');
+    } else {
+        cambio.type = "password";
+        $('.icon').removeClass('fa fa-eye').addClass('fa fa-eye-slash');
+    }
+}
 </script>
 
 </html>

@@ -32,7 +32,7 @@ require_once('Core/config.php');
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Familia</label>
-                    <input type="name" class="form-control" name="Nombre" value="<?=$p->getPro_nom()?>">
+                    <input type="name" class="form-control" name="Nombre" value="<?=$p->getPro_nom()?>" pattern="^[a-zA-Z\s]{2,254}" required>
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="my-2">

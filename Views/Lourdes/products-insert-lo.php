@@ -34,11 +34,11 @@
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Precio Lourdes</label>
-                    <input type="numbers" class="form-control" name="Precio_LO">
+                    <input type="numbers" class="form-control" name="Precio_LO" pattern="^[0-9]+([.][0-9]+)?$" required>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Existencias Lourdes</label>
-                    <input type="numbers" class="form-control" name="Cantidad_LO">
+                    <input type="numbers" class="form-control" name="Cantidad_LO" pattern="^[0-9]+$" required>
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="my-2">
