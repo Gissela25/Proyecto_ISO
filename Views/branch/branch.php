@@ -24,7 +24,7 @@
 <?php require_once "Views/Constant/admin/nav.php";?>
     <div class="row mx-5 mt-5">
         <div class="col ml-5">
-            <!-- <a class="edit" href="?c=branch&a=Insert"><i class="bi bi-plus-square-fill"></i> Insertar</a> -->
+            <!-- <a class="edit" href="?c=branch&a=Insert"><i class="bi bi-plus-square-fill"></i> Insertar</a>  -->
             <div class="row mt-3">
                 <table class="table table-bordered">
                     <thead class="Te" style="background-color: #084594">
