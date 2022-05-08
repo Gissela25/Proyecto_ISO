@@ -43,6 +43,9 @@
                         <a class="nav-link active" aria-current="page" href="<?=PATH?>?c=inicio&a=contacto">Contactanos</a>
                     </li>
                 </ul>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" method="POST" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
+                    <input type="search" name='look' class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
             </div>
         </div>
     </nav>
