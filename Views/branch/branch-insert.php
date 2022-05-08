@@ -22,25 +22,25 @@
 <body>
     <div class="d-flex justify-content-center">
         <div class="col-md-4 my-5">
-        <img src="<?=PATH?>Assets/img/logo.PNG" class="rounded mx-auto d-block mb-3" alt="..." height="85px"
-                    width="230px">
+            <img src="<?=PATH?>Assets/img/logo.PNG" class="rounded mx-auto d-block mb-3" alt="..." height="85px"
+                width="230px">
             <form class="formulario" method="POST" action="?c=branch&a=Save">
                 <div class="form-group">
                     <div class="col-lg-10">
-                    <legend style="color:#084594" class="text-center"><?=$titulo?>  Sucursal</legend>
+                        <legend style="color:#084594" class="text-center"><?=$titulo?> Sucursal</legend>
                         <input class="form-control" name="ID_Sucursal" type="hidden" value="<?=$p->getPro_id()?>">
                     </div>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Nombre Sucursal</label>
-                    <input type="name" class="form-control" name="Nombre_Sucursal" value="<?=$p->getPro_nom()?>">
+                    <input type="name" class="form-control" pattern="^[a-zA-Z\s]{2,254}" name="Nombre_Sucursal" value="<?=$p->getPro_nom()?>">
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="my-2">
-                            <input type="submit" class="btn "></input>
-                        </div>
+                        <input type="submit" class="btn "></input>
+                    </div>
                 </div>
-                
+
             </form>
         </div>
     </div>

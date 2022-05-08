@@ -35,11 +35,11 @@ require_once "Views/Constant/empleados/SA/const.php"?>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Precio Santa Ana</label>
-                    <input type="numbers" class="form-control" name="Precio_SA">
+                    <input type="numbers" class="form-control" name="Precio_SA" pattern="^[0-9]+([.][0-9]+)?$" required>
                 </div>
                 <div class="mb-3" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Existencias Santa Ana</label>
-                    <input type="numbers" class="form-control" name="Cantidad_SA">
+                    <input type="numbers" class="form-control" name="Cantidad_SA" pattern="^[0-9]+$" required>
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="my-2">

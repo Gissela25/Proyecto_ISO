@@ -3,11 +3,29 @@
     background-size: cover;
     height: 300px;
 }
-h1{
+
+.title{
     color: rgb(40, 68, 116);
     font-size: 50px;
     font-weight: 800;
+    animation: float 3s ease-in-out infinite;
 }
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+
 p{
     text-align: justify;
     color: rgb(0, 77, 175);
@@ -33,4 +51,12 @@ p{
     position: absolute;
     top: 20%;
     left: 28%;
+}
+.imga{
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+    display: block;
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
 }

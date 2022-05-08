@@ -38,19 +38,19 @@ require_once('Core/config.php');
                 </div>
                 <div class="" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Nombre</label>
-                    <input type="name" class="form-control" name="Nombre" value="<?=$p->getPro_nom()?>">
+                    <input type="name" class="form-control" name="Nombre" value="<?=$p->getPro_nom()?>" pattern="^[a-zA-Z\s]{2,254}" required>
                 </div>
                 <div class="" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Apellido</label>
-                    <input type="name" class="form-control" name="Apellido" value="<?=$p->getPro_ape()?>">
+                    <input type="name" class="form-control" name="Apellido" value="<?=$p->getPro_ape()?>" pattern="^[a-zA-Z\s]{2,254}" required>
                 </div>
                 <div class="" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label">Correo</label>
-                    <input type="name" class="form-control" name="Correo" value="<?=$p->getPro_correo()?>">
+                    <input type="name" class="form-control" name="Correo" value="<?=$p->getPro_correo()?>" pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" required>
                 </div>
                 <div class="" style="color:#084594">
                     <label for="exampleInputPassword1" class="form-label"></label>
-                    <input type="hidden" class="form-control" name="Clave" value="<?=$p->getPro_Clave()?>">
+                    <input type="hidden" class="form-control" name="Clave" value="<?=$p->getPro_Clave()?>" pattern="^[a-zA-Z0-9()._,*%&#@]{8,}$" required>
                 </div>
                 <div class="form-group">
                     <div class="col-lg-10">
@@ -119,33 +119,5 @@ require_once('Core/config.php');
     </div>
     </div>
 </body>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-light">
-    <div class="containter text-center text-md-left">
-        <div class="row text-center text-md-left">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-                    Ferretería SUMERSA
-                </h5>
-                <p>Sumersa es una empresa importadora y comercializadora de materiales para la construcción</p>
 
-            </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-                   Contacto
-               </h5>
-               <i class="fas fa-home mr-3">2da Calle Pte entre 12 y 14 Av Sur No 7 Santa Tecla, La Libertad, El Salvador, C.A.</i>
-               <i class="fas fa-envelope mr-3">Email:info@sumersa.com.sv</i>
-           </div>
-           <hr class="mb-4">
-           <div class="row align-items-center text-center">
-            <div class="col-md-7 col-lg-8 offset-lg-2">
-                <center>
-                    <p>Copyright @2022 All rights reserved</p>
-                </center>
-                
-            </div>
-        </div> 
-    </div>
-</div>
-</footer>
 </html>

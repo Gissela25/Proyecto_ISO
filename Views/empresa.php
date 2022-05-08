@@ -29,7 +29,8 @@ require_once('Core/config.php');
     </div>
     <div style="text-align:center">
                 <div id="columna1">
-                <h1>QUIENES SOMOS</h1>
+                
+                <h1 class="title">QUIENES SOMOS</h1>
                 <br>
         <p>Sumersa es una empresa importadora y comercializadora de materiales para la construcción,
             destacándose en la distribución de productos de hierro tales como láminas, ángulos, polines, vigas y canales entre otros.</p>
@@ -42,37 +43,11 @@ require_once('Core/config.php');
              <br><br><br>                   
                 </div>
                 <div id="columna2">
-                <img src="Assets/img/empresa.png" width = "310px" height = "440px">
+                <img class="imga" src="Assets/img/empresa.png" width = "310px" height = "440px">
                 </div>
     </div>
 </body>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-light">
-    <div class="containter text-center text-md-left">
-        <div class="row text-center text-md-left">
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-                    Ferretería SUMERSA
-                </h5>
-                <p>Sumersa es una empresa importadora y comercializadora de materiales para la construcción</p>
-
-            </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
-                   Contacto
-               </h5>
-               <i class="fas fa-home mr-3">2da Calle Pte entre 12 y 14 Av Sur No 7 Santa Tecla, La Libertad, El Salvador, C.A.</i>
-               <i class="fas fa-envelope mr-3">Email:info@sumersa.com.sv</i>
-           </div>
-           <hr class="mb-4">
-           <div class="row align-items-center text-center">
-            <div class="col-md-7 col-lg-8 offset-lg-2">
-                <center>
-                    <p>Copyright @2022 All rights reserved</p>
-                </center>
-                
-            </div>
-        </div> 
-    </div>
-</div>
-</footer>
+<?php 
+    require_once "footer.php";
+    ?>
 </html>
