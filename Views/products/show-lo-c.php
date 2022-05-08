@@ -42,8 +42,8 @@ require_once('Core/config.php');
 
             foreach ($this->modelo->showloall() as $r)
             {
-                        //Verificando que la variable no este vacía
-                if(isset($sear))
+                //Verificando que la variable no este vacía
+                if(isset($sear) || ($sear!=''))
                 {
                     foreach ($r as $rd) {
                                 //Reconoce un string que contenga la palabra
