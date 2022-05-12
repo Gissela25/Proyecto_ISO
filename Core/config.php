@@ -1,3 +1,3 @@
 <?php
-    define('PATH','/Proyecto_ISO/');
+    define('PATH','/PROYECTO_ISO/');
 ?>
