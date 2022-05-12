@@ -1,5 +1,5 @@
-# PROYECTOLIS2022
-Creación de una tienda en línea para la empresa ferretería Sumersa con el objetivo de cumplir con el desarrollo del proyecto de catedra de la materia de Lenguaje Interpretado en el Servidor de la Universidad Don Bosco, El Salvador. 
+# PROYECTOISO2022
+Creación de una tienda en línea para la empresa ferretería Sumersa con el objetivo de cumplir con el desarrollo del proyecto de catedra de la materia de Ingenieria de Software de la Universidad Don Bosco, El Salvador. 
 
 # Herramientas
 >Visual Studio Code
@@ -18,6 +18,8 @@ Creación de una tienda en línea para la empresa ferretería Sumersa con el obj
 
 >000Webhost
 
+>Trello
+
 # Licencia
 Este proyecto utiliza la licencia Reconocimiento-No Comercial-Sin Derivados 2.5(CC BY-NC-ND 2.5) que indica:
 
@@ -30,31 +32,25 @@ SinObraDerivada — Si remezcla, transforma o crea a partir del material, no pue
 No hay restricciones adicionales — No puede aplicar términos legales o medidas tecnológicas que legalmente restrinjan realizar aquello que la licencia permite.
 
 # Autores
->Aguillón Amaya, Byron Enrique -Diseño y Manuales 02T
+>Hernández Martínez, Irma Gabriela 03T
 
->Morales López, Jony Edenilson -Diseño,Programación y Lógica 02T
+>Morales López, Jony Edenilson 03T
 
->Portán Pineda, William Fernando -Diseño y Manuales 02T
+>Pérez Cabrera, Carlos Moisés 03T
 
->Serrano López, Gissela Verenice -Diseño,Programación y Lógica 02T
+>Serrano López, Gissela Verenice 03T
 
->Sura Jimenez, Victoria Margarita -Programación y Lógica 02T
-
->Zelaya Flores, Susan Abigail -Diseño y Manuales 02T
+>Sura Jimenez, Victoria Margarita 03T
 
 # Enlaces de Interes 
->Tablero en Trello
->Primera Fase-->https://trello.com/invite/b/WO81pgA7/e70814d4caecd9f7e18f1a23bcc52357/primera-fase
->Segunda Fase-->https://trello.com/invite/b/i6Yyy4gO/e3134b916c3370b678183e6b3c6b502e/segunda-fase
+>Tablero en Trello-->https://trello.com/invite/b/xhELzxZH/8ef574558024c7914dfa113d54ce2f8a/actividades-iso
 
 >Enlace a Mockups-->https://www.figma.com/file/ijKJCJf4Kbbse6vQKKpyNg/Untitled?node-id=0%3A1
 
->Manual Tecnico en la nube-->https://drive.google.com/file/d/1phMBwTmKP8yGRngT8Dsl_lxLKlY0aoDB/view?usp=sharing
+>Manual Tecnico en la nube-->https://drive.google.com/file/d/1en7q5zEaPQZzfQ37By6rrZk0xR2PX3Fu/view?usp=sharing
 
->Manual de Usuario en la nube-->https://drive.google.com/file/d/1uLw3vFE7hY8a613NAvjGJbjAcYMSSy_y/view?usp=sharing
+>Manual de Usuario en la nube-->https://drive.google.com/file/d/1rwR7ZziyI_nP8IRyi-TdSP1v-HVREfdO/view?usp=sharing
 
 >Enlace de la Pagina Web-->https://matronly-strap.000webhostapp.com/
 
->Enlace pdf Proyecto de catedra fase II-->https://drive.google.com/file/d/1ujtLjLZfdJ4ihKSHOQrFSZ9Ao9t2CGcJ/view
-
->Enlace del video-->https://drive.google.com/file/d/1SoPaNpRAbM7hzfmQPau8QSh5CvOQFzVO/view?usp=sharing
+>Enlace pdf Proyecto de catedra fase II-->https://drive.google.com/file/d/1lP1MYY2m1iTJJyq8A3iKtGnLPXugz_WS/view?usp=sharing
