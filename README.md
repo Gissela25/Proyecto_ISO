@@ -56,3 +56,5 @@ Seguimiento-->https://trello.com/invite/b/dCHVdQH1/083445a11fb8010c04c0ea419c4ef
 >Enlace de la Pagina Web-->https://matronly-strap.000webhostapp.com/
 
 >Enlace pdf Proyecto de catedra fase II-->https://drive.google.com/file/d/1lP1MYY2m1iTJJyq8A3iKtGnLPXugz_WS/view?usp=sharing
+
+>Mapa del Sitio Web-->https://drive.google.com/file/d/1e7OoLr4oJC1lXeCx_MfVkebR2ENcXKf8/view?usp=sharing
