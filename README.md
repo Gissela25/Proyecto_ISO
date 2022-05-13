@@ -43,7 +43,7 @@ No hay restricciones adicionales — No puede aplicar términos legales o medida
 >Sura Jimenez, Victoria Margarita 03T
 
 # Enlaces de Interes 
->TableroS en Trello
+>Tableros en Trello
 Actividades-->https://trello.com/invite/b/xhELzxZH/8ef574558024c7914dfa113d54ce2f8a/actividades-iso
 Seguimiento-->https://trello.com/invite/b/dCHVdQH1/083445a11fb8010c04c0ea419c4efeb0/seguimineto-iso
 
